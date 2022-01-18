@@ -9,10 +9,8 @@ class DishesWidget extends StatelessWidget {
       AfricanImagesWidget(imagename: 'Alloco(IvoryCoast).jpg'),
       AfricanImagesWidget(imagename: 'ChickenKebabs (Egypt).jpg'),
       AfricanImagesWidget(imagename: 'ChickenMuamba (Angola, Southern Africa'),
-      AfricanImagesWidget(
-          imagename: 'CouscousRoyale (Tunisia, North Africa).jfif'),
-      AfricanImagesWidget(
-          imagename: 'EgusiSoup(Melon Seed Stew)withFufu(Nigeria).jpg'),
+      AfricanImagesWidget(imagename: 'CouscousRoyale (Tunisia, North Africa).jfif'),
+      AfricanImagesWidget(imagename: 'EgusiSoup(Melon Seed Stew)withFufu(Nigeria).jpg'),
       AfricanImagesWidget(imagename: 'KoshariEgypt(NorthAfrica).jpg'),
       AfricanImagesWidget(imagename: 'NigerianJollofRice.jfif'),
       AfricanImagesWidget(imagename: 'NyamaNaIrio(Kenya).jpg'),
@@ -40,7 +38,7 @@ class DishesWidget extends StatelessWidget {
         itemBuilder: (context, index) => Card(
               child: ListTile(
                 leading:
-                    CircleAvatar(backgroundImage: africa['dishimage'][index]),
+                CircleAvatar(backgroundImage: africa['dishimage'][index]),
                 title: Text(africa['dishname']['index']),
               ),
             ));
